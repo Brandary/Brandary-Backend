@@ -1,4 +1,4 @@
-package org.scoula.brandary;
+package com.tave.brandary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

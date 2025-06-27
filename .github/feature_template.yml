@@ -1,0 +1,22 @@
+name: Feat
+description: 새로운 기능을 추가합니다.
+title: "[Feat] "
+labels: [feat]
+body:
+  - type: textarea
+    attributes:
+      label: 📌 기능 설명
+      description: 어떤 기능을 개발할 예정인가요?
+      placeholder: 예) 사용자 로그인 API를 구현한다.
+  - type: checkboxes
+    attributes:
+      label: ✅ 작업 항목
+      description: 필요한 작업을 체크리스트로 작성해주세요.
+      options:
+        - label: 컨트롤러 생성
+        - label: 서비스 로직 구현
+        - label: 테스트 코드 작성
+  - type: textarea
+    attributes:
+      label: 📝 참고 사항
+      description: API 명세서, 디자인, 기타 참고 링크가 있다면 적어주세요.
